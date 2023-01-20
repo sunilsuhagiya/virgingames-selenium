@@ -1,0 +1,172 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6037622900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify user can navigate to online slots page successfully",
+        "description": "",
+        "id": "virgin-games-functionality;verify-user-can-navigate-to-online-slots-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 119100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 105817100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "VirginPageNavigationSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112839500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I accept all cookies",
+            "match": {
+              "location": "VirginPageNavigationSteps.iAcceptAllCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104273400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on online slots tab",
+            "match": {
+              "location": "VirginPageNavigationSteps.iClickOnOnlineSlotsTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304224400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be navigated to online slots page",
+            "match": {
+              "location": "VirginPageNavigationSteps.iShouldBeNavigatedToOnlineSlotsPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3183799100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify user can navigate to live casino page successfully",
+        "description": "",
+        "id": "virgin-games-functionality;verify-user-can-navigate-to-live-casino-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 54500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on homepage",
+            "match": {
+              "location": "VirginPageNavigationSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 105673000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I accept all cookies",
+            "match": {
+              "location": "VirginPageNavigationSteps.iAcceptAllCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120786200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on live casino tab",
+            "match": {
+              "location": "VirginPageNavigationSteps.iClickOnLiveCasinoTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219823300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be navigated to live casino page",
+            "match": {
+              "location": "VirginPageNavigationSteps.iShouldBeNavigatedToLiveCasinoPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Virgin games Functionality",
+    "description": "As a User I want to check the different navigation tabs of virgin game application",
+    "id": "virgin-games-functionality",
+    "keyword": "Feature",
+    "uri": "virgingames.feature"
+  }
+]
